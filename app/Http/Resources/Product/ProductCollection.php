@@ -3,7 +3,7 @@
 namespace App\Http\Resources\Product;
 
 use Illuminate\Http\Resources\Json\Resource;
-use App\Http\Resources\Product\ProductResource;
+
 
 class ProductCollection extends Resource
 {
