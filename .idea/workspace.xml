@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4bdaead-aa47-4c4f-97b7-ee6b5ea12805" name="Default" comment="Authenticação com passport">
+    <list default="true" id="b4bdaead-aa47-4c4f-97b7-ee6b5ea12805" name="Default" comment="Criação de produto com autenticação, criação do ProductRequest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Product/ProductResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Product/ProductResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ProductFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2018_05_30_190621_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2018_05_30_190621_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,11 +60,20 @@
       <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="440">
+              <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
               <folding>
                 <element signature="e#40#77#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -86,15 +92,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Review.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -136,7 +133,6 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_30_190622_create_reviews_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ReviewFactory.php" />
-        <option value="$PROJECT_DIR$/app/Model/Product.php" />
         <option value="$PROJECT_DIR$/app/Model/Review.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductCollection.php" />
@@ -149,6 +145,7 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_05_30_190621_create_products_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/ProductRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductResource.php" />
+        <option value="$PROJECT_DIR$/app/Model/Product.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
       </list>
     </option>
@@ -294,6 +291,12 @@
             <path>
               <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,7 +353,7 @@
       <updated>1527705570690</updated>
       <workItem from="1527705571897" duration="7544000" />
       <workItem from="1527856524519" duration="6129000" />
-      <workItem from="1528113998595" duration="4583000" />
+      <workItem from="1528113998595" duration="6103000" />
     </task>
     <task id="LOCAL-00001" summary="Segundo commit">
       <created>1527707352623</created>
@@ -436,11 +439,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528115351376</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Criação de produto com autenticação, criação do ProductRequest">
+      <created>1528118766284</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528118766284</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Criação de produto com autenticação, criação do ProductRequest">
+      <created>1528119237399</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528119237399</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18256000" />
+    <option name="totallyTimeSpent" value="19776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1430" y="-11" width="1857" height="1092" extended-state="6" />
@@ -453,9 +470,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948583" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32948583" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2564953" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2564953" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.13598673" />
+      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.13598673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -483,7 +500,8 @@
     <MESSAGE value="Ajuste no calculo de desconto e na contagem de estrelas do rating" />
     <MESSAGE value="Ajuste no sistema de rotas, exibir somente o necessário no products" />
     <MESSAGE value="Authenticação com passport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authenticação com passport" />
+    <MESSAGE value="Criação de produto com autenticação, criação do ProductRequest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação de produto com autenticação, criação do ProductRequest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Http/Resources/Product/ProductCollection.php">
@@ -645,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/decbdb56-9d50-467d-827b-912e81fa1cb6/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -738,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/products">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/src/DocBlock/DescriptionFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -766,10 +770,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="51" column="34" lean-forward="true" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        <state relative-caret-position="440">
+          <caret line="88" column="32" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
           <folding>
             <element signature="e#40#77#0#PHP" expanded="true" />
           </folding>
