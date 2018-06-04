@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b4bdaead-aa47-4c4f-97b7-ee6b5ea12805" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Review.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,11 +60,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <file leaf-file-name="ReviewController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-220">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+              <folding>
+                <element signature="e#40#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018_05_30_190622_create_reviews_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_30_190622_create_reviews_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReviewRequest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Requests/ReviewRequest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Review.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -86,10 +127,8 @@
         <option value="$PROJECT_DIR$/database/migrations/2018_05_30_190616_create_reviews_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_05_30_190622_create_reviews_table.php" />
         <option value="$PROJECT_DIR$/database/factories/ReviewFactory.php" />
-        <option value="$PROJECT_DIR$/app/Model/Review.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Product/ProductCollection.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/ReviewResource.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/config/auth.php" />
@@ -104,6 +143,9 @@
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/Exceptions/ProductNotBelongsToUser.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReviewController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ReviewRequest.php" />
+        <option value="$PROJECT_DIR$/app/Model/Review.php" />
       </list>
     </option>
   </component>
@@ -236,13 +278,28 @@
               <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
@@ -254,12 +311,6 @@
               <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cursoLaravelApi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cursoLaravelApi" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="factories" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,7 +354,7 @@
       <updated>1527705570690</updated>
       <workItem from="1527705571897" duration="7544000" />
       <workItem from="1527856524519" duration="6129000" />
-      <workItem from="1528113998595" duration="12055000" />
+      <workItem from="1528113998595" duration="13511000" />
     </task>
     <task id="LOCAL-00001" summary="Segundo commit">
       <created>1527707352623</created>
@@ -438,14 +489,22 @@
       <option name="project" value="LOCAL" />
       <updated>1528130202648</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Criação da factory de user, Productbelongs, para deletar somente produtos cujo id é o do usuario">
+      <created>1528130721780</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528130721780</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25728000" />
+    <option name="totallyTimeSpent" value="27184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1430" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -624,13 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/ReviewFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -638,22 +690,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_30_190622_create_reviews_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/decbdb56-9d50-467d-827b-912e81fa1cb6/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Resources/ReviewResource.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/ProductRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -776,24 +807,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/products">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -807,13 +834,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_05_30_190622_create_reviews_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="212">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/products">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/reviews">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://decbdb56-9d50-467d-827b-912e81fa1cb6/schema/cursoLaravelApi/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ReviewRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReviewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="e#40#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
